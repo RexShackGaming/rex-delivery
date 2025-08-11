@@ -148,7 +148,9 @@ AddEventHandler('rex-delivery:client:vehiclespawn', function(deliveryid, cart, c
                 local vehpos = GetEntityCoords(currentDeliveryWagon, true)
                 if #(vehpos - endcoords) < 250.0 then
                     sleep = 0
-                    DrawText3D(endcoords.x, endcoords.y, endcoords.z + 0.98, locale('cl_lang_7'))
+                    if Config.DestinationMarker then
+                        DrawText3D(endcoords.x, endcoords.y, endcoords.z + 0.98, locale('cl_lang_7'))
+                    end
                     if #(vehpos - endcoords) < 3.0 then
                         if showgps == true then
                             ClearGpsMultiRoute(endcoords)

@@ -21,6 +21,7 @@ Config.FadeIn = true
 -- settings
 ---------------------------------
 Config.SpawnVehDistance = 5.0 -- check to see if another cart has spawned
+Config.DestinationMarker = true
 
 ---------------------------------
 -- delivery locations
