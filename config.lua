@@ -72,7 +72,7 @@ Config.DeliveryLocations = {
         npcmodel     = `a_m_m_deliverytravelers_warm_01`,
         npccoords    = vector4(-743.91, -1219.10, 43.25, 120.49),
     },
-    {   -- strawberry -> mcfarlands ranch ( distance 2033 / $20.33)
+    {   -- strawberry -> macfarlanes ranch ( distance 2033 / $20.33)
         name         = 'Ranch Delivery',
         deliveryid   = 'delivery4',
         cartspawn    = vector4(-1788.618, -439.5259, 155.38444, 80.844512),
@@ -87,7 +87,7 @@ Config.DeliveryLocations = {
         npcmodel     = `a_m_m_deliverytravelers_warm_01`,
         npccoords    = vector4(-1795.95, -428.14, 155.90, 274.72),
     },
-    {   -- mcfarlands ranch -> tumbleweed  ( distance 3214 / $32.14)
+    {   -- macfarlanes ranch -> tumbleweed  ( distance 3214 / $32.14)
         name         = 'Tumbleweed Delivery',
         deliveryid   = 'delivery5',
         cartspawn    = vector4(-2358.09, -2385.02, 62.25, 191.99),
